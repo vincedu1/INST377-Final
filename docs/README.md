@@ -16,8 +16,7 @@
 ## INSTALLATION GUIDE
 
 # STEP 1: CLONE REPOSITORY
-git clone https://github.com/vincedu1/INST377-Final-Project
-cd Final
+git clone https://github.com/vincedu1/INST377-Final
 
 # STEP 2: INSTALL DEPENDENCIES
 cd backend
@@ -60,9 +59,9 @@ CREATE TABLE goals (
    - Copy your **anon/public key**
 
 # Step 4: Configure Backend
-Edit `backend/server.js` and replace the credentials:
-const SUPABASE_URL = 'https://your-project-id.supabase.co';
-const SUPABASE_KEY = 'your-anon-public-key-here';
+Create .env and add the following code with yourcredentials:
+SUPABASE_URL = 'https://your-project-id.supabase.co';
+SUPABASE_KEY = 'your-anon-public-key-here';
 
 ## RUNNING THE APPLICATION
 # Start backend server
