@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/vincedu1/INST377-Final#readme",
+  "bugs": {
+    "url": "https://github.com/vincedu1/INST377-Final/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincedu1/INST377-Final.git"
+  },
+  "license": "ISC",
+  "author": "Vincent Du",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.88.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {}
+}
